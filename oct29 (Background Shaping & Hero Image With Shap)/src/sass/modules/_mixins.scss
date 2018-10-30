@@ -1,0 +1,103 @@
+@mixin hero($color, $img: null) {
+    @if not($img) {
+        background: linear-gradient(174.5deg, color($color) 84.5%, color(white) 84.69%) no-repeat center;
+        background-size: cover;
+    }
+
+    @else {
+        background: linear-gradient(174.5deg, color($color, "light") 84.5%, color(white) 84.69%), url($img) no-repeat top center;
+        background-size: cover;
+    }
+}
+
+@mixin hero_rvrs($color, $img: null) {
+    @if not($img) {
+        background: linear-gradient(-174.5deg, color($color) 84.5%, color(white) 84.69%) no-repeat center;
+        background-size: cover;
+    }
+
+    @else {
+        background: linear-gradient(-174.5deg, color($color, "light") 84.5%, color(white) 84.69%), url($img) no-repeat top center;
+        background-size: cover;
+    }
+}
+
+
+
+
+@mixin wide($color, $img: null) {
+    @if not($img) {
+        background: linear-gradient(175deg, #fff 15%, color($color) 15.15%, color($color) 82%, #fff 82.15%) no-repeat center;
+    }
+
+    @else {
+        background: linear-gradient(175deg, #fff 15%, color($color, "") 15.15%, color($color, "") 82%, #fff 82.15%), url($img) no-repeat top center;
+        background-size: cover;
+    }
+}
+
+@mixin wide_rvrs($color, $img: null) {
+    @if not($img) {
+        background: linear-gradient(-175deg, #fff 15%, color($color) 15.15%, color($color) 82%, #fff 82.15%) no-repeat center;
+    }
+
+    @else {
+        background: linear-gradient(-175deg, #fff 15%, color($color, "") 15.15%, color($color, "") 82%, #fff 82.15%), url($img) no-repeat top center;
+        background-size: cover;
+    }
+}
+
+
+@mixin double($color, $img: null) {
+    @if not($img) {
+        background: linear-gradient(90deg, color($color) 50%, #fff 50%) no-repeat center;
+    }
+
+    @else {
+        background: linear-gradient(90deg, color($color, "") 50%, #fff 50%), url($img) no-repeat top center;
+        background-size: cover;
+    }
+}
+
+@mixin double_rvrs($color, $img: null) {
+    @if not($img) {
+        background: linear-gradient(-90deg, color($color) 50%, #fff 50%) no-repeat center;
+    }
+
+    @else {
+        background: linear-gradient(-90deg, color($color, "") 50%, #fff 50%), url($img) no-repeat top center;
+        background-size: cover;
+    }
+}
+
+
+
+@mixin tril($color, $img: null) {
+    background: radial-gradient(blue 50%, white 50%);
+}
+
+
+
+@mixin footer($color, $img: null) {
+    @if not($img) {
+        background: linear-gradient(355deg, color($color) 84.5%, color(white) 84.69%) no-repeat center;
+        background-size: cover;
+    }
+
+    @else {
+        background: linear-gradient(355deg, color($color, "light") 84.5%, color(white) 84.69%), url($img) no-repeat top center;
+        background-size: cover;
+    }
+}
+
+@mixin footer_rvrs($color, $img: null) {
+    @if not($img) {
+        background: linear-gradient(-355deg, color($color) 84.5%, color(white) 84.69%) no-repeat center;
+        background-size: cover;
+    }
+
+    @else {
+        background: linear-gradient(-355deg, color($color, "light") 84.5%, color(white) 84.69%), url($img) no-repeat top center;
+        background-size: cover;
+    }
+}

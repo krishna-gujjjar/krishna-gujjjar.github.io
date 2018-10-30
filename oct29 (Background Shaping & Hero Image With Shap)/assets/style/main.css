@@ -1,0 +1,223 @@
+/*
+ * @Author: GurjarsPro 
+ * @Date: 2018-10-29 20:38:19 
+ * @Last Modified by: krishna_gujjjar
+ * @Last Modified time: 2018-10-29 21:37:19
+ */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  height: 100vh;
+}
+
+.bg_hero {
+  background: -webkit-linear-gradient(275.5deg, #000 84.5%, #fff 84.69%) no-repeat center;
+  background: -moz-linear-gradient(275.5deg, #000 84.5%, #fff 84.69%) no-repeat center;
+  background: -o-linear-gradient(275.5deg, #000 84.5%, #fff 84.69%) no-repeat center;
+  background: linear-gradient(174.5deg, #000 84.5%, #fff 84.69%) no-repeat center;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.bg_hero_img {
+  background: -webkit-linear-gradient(275.5deg, #00000080 84.5%, #fff 84.69%), url("../img/bg_6.jpg") no-repeat top center;
+  background: -moz-linear-gradient(275.5deg, #00000080 84.5%, #fff 84.69%), url("../img/bg_6.jpg") no-repeat top center;
+  background: -o-linear-gradient(275.5deg, #00000080 84.5%, #fff 84.69%), url("../img/bg_6.jpg") no-repeat top center;
+  background: linear-gradient(174.5deg, #00000080 84.5%, #fff 84.69%), url("../img/bg_6.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.bg_wide {
+  background: -webkit-linear-gradient(275deg, #fff 15%, #36425a 15.15%, #36425a 82%, #fff 82.15%) no-repeat center;
+  background: -moz-linear-gradient(275deg, #fff 15%, #36425a 15.15%, #36425a 82%, #fff 82.15%) no-repeat center;
+  background: -o-linear-gradient(275deg, #fff 15%, #36425a 15.15%, #36425a 82%, #fff 82.15%) no-repeat center;
+  background: linear-gradient(175deg, #fff 15%, #36425a 15.15%, #36425a 82%, #fff 82.15%) no-repeat center;
+}
+
+.bg_wide_rvrs {
+  background: -webkit-linear-gradient(265deg, #fff 15%, #ff2692 15.15%, #ff2692 82%, #fff 82.15%) no-repeat center;
+  background: -moz-linear-gradient(265deg, #fff 15%, #ff2692 15.15%, #ff2692 82%, #fff 82.15%) no-repeat center;
+  background: -o-linear-gradient(265deg, #fff 15%, #ff2692 15.15%, #ff2692 82%, #fff 82.15%) no-repeat center;
+  background: linear-gradient(-175deg, #fff 15%, #ff2692 15.15%, #ff2692 82%, #fff 82.15%) no-repeat center;
+}
+
+.bg_wide_img {
+  background: -webkit-linear-gradient(275deg, #fff 15%, #36425a80 15.15%, #36425a80 82%, #fff 82.15%), url("../img/bg_6.jpg") no-repeat top center;
+  background: -moz-linear-gradient(275deg, #fff 15%, #36425a80 15.15%, #36425a80 82%, #fff 82.15%), url("../img/bg_6.jpg") no-repeat top center;
+  background: -o-linear-gradient(275deg, #fff 15%, #36425a80 15.15%, #36425a80 82%, #fff 82.15%), url("../img/bg_6.jpg") no-repeat top center;
+  background: linear-gradient(175deg, #fff 15%, #36425a80 15.15%, #36425a80 82%, #fff 82.15%), url("../img/bg_6.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.bg_wide_img_rvrs {
+  background: -webkit-linear-gradient(265deg, #fff 15%, #ff269280 15.15%, #ff269280 82%, #fff 82.15%), url("../img/bg_6.jpg") no-repeat top center;
+  background: -moz-linear-gradient(265deg, #fff 15%, #ff269280 15.15%, #ff269280 82%, #fff 82.15%), url("../img/bg_6.jpg") no-repeat top center;
+  background: -o-linear-gradient(265deg, #fff 15%, #ff269280 15.15%, #ff269280 82%, #fff 82.15%), url("../img/bg_6.jpg") no-repeat top center;
+  background: linear-gradient(-175deg, #fff 15%, #ff269280 15.15%, #ff269280 82%, #fff 82.15%), url("../img/bg_6.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.bg_double {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #f0b820), color-stop(50%, #fff)) no-repeat center;
+  background: -webkit-linear-gradient(left, #f0b820 50%, #fff 50%) no-repeat center;
+  background: -moz-linear-gradient(left, #f0b820 50%, #fff 50%) no-repeat center;
+  background: -o-linear-gradient(left, #f0b820 50%, #fff 50%) no-repeat center;
+  background: linear-gradient(90deg, #f0b820 50%, #fff 50%) no-repeat center;
+}
+
+.bg_double_rvrs {
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #e94103), color-stop(50%, #fff)) no-repeat center;
+  background: -webkit-linear-gradient(right, #e94103 50%, #fff 50%) no-repeat center;
+  background: -moz-linear-gradient(right, #e94103 50%, #fff 50%) no-repeat center;
+  background: -o-linear-gradient(right, #e94103 50%, #fff 50%) no-repeat center;
+  background: linear-gradient(-90deg, #e94103 50%, #fff 50%) no-repeat center;
+}
+
+.bg_double_img {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #f0b82080), color-stop(50%, #fff)), url("../img/bg_6.jpg") no-repeat top center;
+  background: -webkit-linear-gradient(left, #f0b82080 50%, #fff 50%), url("../img/bg_6.jpg") no-repeat top center;
+  background: -moz-linear-gradient(left, #f0b82080 50%, #fff 50%), url("../img/bg_6.jpg") no-repeat top center;
+  background: -o-linear-gradient(left, #f0b82080 50%, #fff 50%), url("../img/bg_6.jpg") no-repeat top center;
+  background: linear-gradient(90deg, #f0b82080 50%, #fff 50%), url("../img/bg_6.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.bg_double_img_rvrs {
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #e9410380), color-stop(50%, #fff)), url("../img/bg_6.jpg") no-repeat top center;
+  background: -webkit-linear-gradient(right, #e9410380 50%, #fff 50%), url("../img/bg_6.jpg") no-repeat top center;
+  background: -moz-linear-gradient(right, #e9410380 50%, #fff 50%), url("../img/bg_6.jpg") no-repeat top center;
+  background: -o-linear-gradient(right, #e9410380 50%, #fff 50%), url("../img/bg_6.jpg") no-repeat top center;
+  background: linear-gradient(-90deg, #e9410380 50%, #fff 50%), url("../img/bg_6.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.bg_tril {
+  background: -webkit-radial-gradient(blue 50%, white 50%);
+  background: -moz-radial-gradient(blue 50%, white 50%);
+  background: -o-radial-gradient(blue 50%, white 50%);
+  background: radial-gradient(blue 50%, white 50%);
+}
+
+.bg_footer {
+  background: -webkit-linear-gradient(95deg, #682b08 84.5%, #fff 84.69%) no-repeat center;
+  background: -moz-linear-gradient(95deg, #682b08 84.5%, #fff 84.69%) no-repeat center;
+  background: -o-linear-gradient(95deg, #682b08 84.5%, #fff 84.69%) no-repeat center;
+  background: linear-gradient(355deg, #682b08 84.5%, #fff 84.69%) no-repeat center;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.bg_footer_rvrs {
+  background: -webkit-linear-gradient(85deg, #4A00E0 84.5%, #fff 84.69%) no-repeat center;
+  background: -moz-linear-gradient(85deg, #4A00E0 84.5%, #fff 84.69%) no-repeat center;
+  background: -o-linear-gradient(85deg, #4A00E0 84.5%, #fff 84.69%) no-repeat center;
+  background: linear-gradient(-355deg, #4A00E0 84.5%, #fff 84.69%) no-repeat center;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.bg_footer_img {
+  background: -webkit-linear-gradient(95deg, #682b0880 84.5%, #fff 84.69%), url("../img/bg_6.jpg") no-repeat top center;
+  background: -moz-linear-gradient(95deg, #682b0880 84.5%, #fff 84.69%), url("../img/bg_6.jpg") no-repeat top center;
+  background: -o-linear-gradient(95deg, #682b0880 84.5%, #fff 84.69%), url("../img/bg_6.jpg") no-repeat top center;
+  background: linear-gradient(355deg, #682b0880 84.5%, #fff 84.69%), url("../img/bg_6.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.bg_footer_img_rvrs {
+  background: -webkit-linear-gradient(85deg, #4A00E080 84.5%, #fff 84.69%), url("../img/bg_6.jpg") no-repeat top center;
+  background: -moz-linear-gradient(85deg, #4A00E080 84.5%, #fff 84.69%), url("../img/bg_6.jpg") no-repeat top center;
+  background: -o-linear-gradient(85deg, #4A00E080 84.5%, #fff 84.69%), url("../img/bg_6.jpg") no-repeat top center;
+  background: linear-gradient(-355deg, #4A00E080 84.5%, #fff 84.69%), url("../img/bg_6.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.ctn {
+  position: relative;
+  height: 100%;
+}
+
+.ctn_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.ctn_text_head {
+  text-align: center;
+  text-transform: uppercase;
+  color: #e8e7e7;
+  font-size: 3.5em;
+}
+
+.ctn_text_para {
+  color: #e8e7e7;
+  padding: 0 1%;
+  margin-top: 1.5em;
+  font-size: 1.3em;
+  letter-spacing: .03em;
+  text-align: justify;
+}
+
+.right {
+  left: 5%;
+  right: 52%;
+  -webkit-transform: translate(-5%, -50%);
+     -moz-transform: translate(-5%, -50%);
+       -o-transform: translate(-5%, -50%);
+          transform: translate(-5%, -50%);
+}
+
+.left {
+  left: 55%;
+  right: 5%;
+  -webkit-transform: translate(0%, -50%);
+     -moz-transform: translate(0%, -50%);
+       -o-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+}
+/*# sourceMappingURL=main.css.map */

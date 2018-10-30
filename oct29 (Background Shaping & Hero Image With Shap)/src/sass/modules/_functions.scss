@@ -1,0 +1,9 @@
+@function color($color, $light: null) {
+    @if not ($light) {
+        @return map-get($colors, $color);
+    }
+
+    @else {
+        @return map-get($color_light, $color);
+    }
+}
